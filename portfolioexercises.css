@@ -1,0 +1,100 @@
+body {
+                 
+    background-color:lavenderblush;
+    width: 100%;
+    display: block;
+    margin: 0px 10px 0px 0px;
+    font-family: 'PT Sans Narrow', sans-serif;
+                }
+h1{
+    
+    color: #c45096;
+    padding: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+                    }
+h2{
+    font-size: 20px;
+    padding:0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kaushan Script', cursive;
+}
+
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+    
+
+/*NAVIGATION!*/
+
+nav{
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    height: 45px;
+    min-width: 700px;
+    display: block;
+    
+    
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    word-spacing: 15px;
+    padding-bottom: 0px;
+    padding-top:0px;
+   
+}
+ul li{
+    display: inline-grid;
+    padding-left: 0px;
+    padding-right: 5px;
+    font-size: 20px;
+    border: 3px solid #eab059;
+    border-radius: 15px;
+    
+}
+li{
+    text-align: -webkit-match-parent;
+}
+a.button:link {
+    color: deeppink;
+    padding: 10px;
+    position: 18px;
+    bottom: 19px;
+    border-radius: 10px;
+    text-decoration: none; 
+    }
+
+a.button:active {
+    color: darkcyan; 
+}
+
+a.button:visited {
+color: #03d2e1;
+border: 1px solid #03d2e1;
+background color: #e0eced;
+}
+
+a.button:hover {
+color: darkcyan;
+border: 1px solid darkcyan;
+background-color: #e0eced;
+    }
+
+
+.button {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+   
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+.sidenav {font-size: 18px;}
+}
